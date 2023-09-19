@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.cell{
+    /* background-color: yellow; */
+    border: 1px dashed black;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.player-names{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+span{
+    padding: 2px;
+    border:2px solid black;
+}
+
+.green-light{
+    background-color: greenyellow;
+}
+
+.result-container{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.reset-btn{
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+    border: none;    
+    border-radius: 0.2rem;
+    transition: 0.4s;
+}
+
+.reset-btn:hover{
+    cursor: pointer;
+    box-shadow:7px 7px 5px 1px black;
+    transition: 0.4s;
+}
